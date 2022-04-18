@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    font-family:poppins,sans-serif;
+}
+html{
+    scroll-behavior:smooth;
+   }
+
+.img-thumbnail{
+    width:50px;
+}
+
+.navbar{
+    background: #8B0000;
+    width:100%;
+    height: 100px;
+    padding: 0 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+
+}
+
+.nav-link{
+    color: white !important;
+    text-decoration: none;
+    font-size: 22px;
+
+}
+ul,li{
+    list-style: none;
+}
+
+.navgrup{
+    display: flex;
+
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+}
+
+.img-thumbnail{
+    width: 75px;
+}
+
+.title{
+    margin-left: 28px;
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 0;
+
+}
+
+.w-100{
+    background: linear-gradient(360deg, rgba(36, 36, 36, 0.87) -3.05%, rgba(0, 0, 0, 0) 96.95%);
+
+}
+
+
+
+.container-home{
+    background-color: #8B0000;
+    height: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:28px
+    
+
+}
+
+.judul-title{
+    color: white;
+    text-align: center;
+    font-size:37px;
+    font-weight: bold;
+}
+
+.title-des{
+    color: white;
+    text-align: center;
+    font-size:18px;
+    letter-spacing: 3%;
+    margin-top:12px
+}
+
+.slide{
+    height:660px;
+}
+
+.carousel-inner{
+    width:100%;
+    height:100%;
+}
+
+.title-img1{
+    width:100%;
+    word-wrap: unset;
+         
+}
+
+.container{
+    margin-top: 70px;
+    
+
+}
+
+.title-img1{
+    word-wrap: unset;
+
+}
+
+.img2{
+    margin-top: 37px;
+    width: 100%;
+    height: 100%;
+    
+
+    
+}
+
+    
+
+.img3{
+    width: 832px;
+    height: 425px;
+    
+}
+
+.img4{
+    width: 450px;
+    height: 680px;
+    margin-left: 186px;
+    
+}
+
+/* .home{
+    display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.card-img{
+    width: 300px;
+    height: 500px;
+    margin-bottom: 25px;
+    
+}
+
+.conten{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10rem;
+}
+
+.koleksi{
+    font-weight: bold;
+}
+
+.koleksi1{
+    margin-top: 100px;
+    font-weight: bold;
+    
+}
+
+.container-footer{
+    background-color:black;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:28px;
+}
+
+.title-footer{
+    color: white;
+    text-align: center;
+    font-size:18px;
+    letter-spacing: 3%;
+    margin-top:12px
+}
+
+.judul-footer{
+    color: white;
+    text-align: left;
+    font-size:37px;
+    font-weight: bold;
+    margin-top: 12px;
+    
+}
+
+.img-footer{
+    width:100px
+}
